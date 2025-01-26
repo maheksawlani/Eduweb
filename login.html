@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - EduWeb</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">EduWeb</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html" target="_blank">Home <span class="glyphicon glyphicon-home"></span></a></li>
+                <li><a href="about.html" target="_blank">About Us <span class="glyphicon glyphicon-info-sign"></span></a></li>
+                <li class="active"><a href="login.html" target="_blank">Login <span class="glyphicon glyphicon-log-in"></span></a></li>
+                <li><a href="register.html" target="_blank">Register <span class="glyphicon glyphicon-pencil"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Login Content -->
+    <div class="container" id="login">
+        <h2>Login <span class="glyphicon glyphicon-log-in"></span></h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Login <span class="glyphicon glyphicon-arrow-right"></span></button>
+        </form>
+    </div>
+</body>
+</html>
